@@ -1,0 +1,21 @@
+{
+  "name": "My Timetable App",
+  "short_name": "Timetable",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#151515",
+  "theme_color": "#a91d3a",
+  "description": "Check your current class and room number in real time.",
+  "icons": [
+    {
+      "src": "/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
