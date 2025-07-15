@@ -25,7 +25,6 @@ https://ashking-tech.github.io/timetable/
 
 ## Folder Structure
 
-```
 
 root/
 ├── index.html
