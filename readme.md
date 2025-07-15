@@ -44,7 +44,7 @@ root/
 ### 1. Clone the Repo
 
 ```bash
-git clone https://github.com/<your-username>/<repo-name>.git
+git https://github.com/Ashking-tech/timetable.git
 ````
 
 ### 2. Edit Timetable Data
