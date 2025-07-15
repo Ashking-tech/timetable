@@ -1,6 +1,3 @@
-
----
-
 ```markdown
 # Timetable PWA App
 
