@@ -3,29 +3,29 @@
 
 const timetable = {
   Monday: [
-    { start: "09:00", end: "10:00", subject: "AI LAB(SSS)", room: "LAB 313" },
+    { start: "09:00", end: "11:00", subject: "AI LAB(SSS)", room: "LAB 313" },
     { start: "11:15", end: "12:15", subject: "DELD (XYZ)", room: "337" },
     { start: "12:15", end: "01:15", subject: "OS (ABN)", room: "337" },
     { start: "02:00", end: "03:00", subject: "AI (SSS)", room: "337" },
     { start: "03:00", end: "05:00", subject: "DSL", room: "314" }
   ],
   Tuesday: [
-    { start: "09:00", end: "10:00", subject: "CEP (ARN)", room: "Project Lab 231" },
-    { start: "11:15", end: "12:15", subject: "DS (ARC)", room: "337" },
+    { start: "09:00", end: "11:00", subject: "CEP (ARN)", room: "Project Lab 231" },
+    { start: "11:15", end: "12:15", subject: "DS (ABC)", room: "337" },
     { start: "12:15", end: "01:15", subject: "OS (ARN)", room: "337" },
     { start: "02:00", end: "03:00", subject: "AI (SSS)", room: "337" },
     { start: "03:00", end: "04:00", subject: "LIBRARY VISIT", room: "NA" },
   ],
   Wednesday: [
-    { start: "09:00", end: "10:00", subject: "DSL(ABC)", room: "DS LAB 314" },
+    { start: "09:00", end: "11:00", subject: "DSL(ABC)", room: "DS LAB 314" },
     { start: "11:15", end: "12:15", subject: "GFM", room: "NA" }, // Defaulting to 337 as no specific room was mentioned for GFM
     { start: "12:15", end: "01:15", subject: "OS (ABN)", room: "337" },
-    { start: "02:00", end: "03:00", subject: "AI (SSS)", room: "337" },
+    { start: "02:00", end: "03:00", subject: "GFM", room: "NA" },
     { start: "03:00", end: "04:00", subject: "DM (PVN)", room: "337" }, 
     { start: "04:00", end: "05:00", subject: "DELD", room: "337" }
   ],
   Thursday: [
-    { start: "09:00", end: "10:00", subject: "CEP", room: "Software Lab 334" },
+    { start: "09:00", end: "11:00", subject: "CEP", room: "Software Lab 334" },
     { start: "11:15", end: "12:15", subject: "UHV (PQR)", room: "337" },
     { start: "12:15", end: "01:15", subject: "DM (PVN)", room: "337" },
     { start: "02:00", end: "03:00", subject: "EEM (PQR)", room: "337" },
@@ -33,10 +33,10 @@ const timetable = {
     { start: "04:00", end: "05:00", subject: "DS(ABC)", room: "337" }
   ],
   Friday: [
-    { start: "09:00", end: "10:00", subject: "EEM (PQR)", room: "336" },
+    { start: "09:00", end: "11:00", subject: "EEM (PQR)", room: "336" },
     { start: "11:15", end: "12:15", subject: "DS (ABC)", room: "337" },
     { start: "12:15", end: "01:15", subject: "UHV (PQR)", room: "337" },
-    { start: "02:00", end: "03:00", subject: "GFM", room: "NA" }, // Defaulting to 337
+    { start: "02:00", end: "03:00", subject: "AI", room: "337" }, // Defaulting to 337
     { start: "03:00", end: "04:00", subject: "CEP", room: "NA" }, // Defaulting to 337
   ],
 };
